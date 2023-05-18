@@ -16,9 +16,11 @@
     
     
 <p align="center">
-  <a href="#Installation">Installation</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Usage">Usage</a>
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#features">Features</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a>
 </p> 
  
 
