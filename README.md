@@ -22,15 +22,16 @@
 ## Description
 Stucus is a simple chatbot-like program
 
-# Installation 
+# Installation
+1. Clone the repository:
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
 ```
-Navigate to Stucus
+2. Navigate to Stucus
 ```console
 cd Stucus
 ```
-Compile the source code:
+3. Compile the source code:
 ```console
 g++ stucus.cpp -o stucus
 ```
