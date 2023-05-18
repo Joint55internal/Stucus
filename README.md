@@ -1,9 +1,7 @@
 # Stucus
-<p align=center>
+## Description
 
-  <br>
-  <span> Simple chatbot like program
-</p> 
+Stucus is a simple chatbot-like program
   
 ```md
 ███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗
