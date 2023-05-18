@@ -29,6 +29,7 @@ git clone https://github.com/Joint55internal/Stucus.git
 ```console
 cd Stucus
 ```
+Compile the source code:
 ```console
 g++ stucus.cpp -o stucus
 ```
