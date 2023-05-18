@@ -3,7 +3,7 @@
 
   <br>
   <span> Simple chatbot like program
-  
+</p> 
   
 ```md
 ███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗
@@ -13,7 +13,8 @@
 ███████║   ██║   ╚██████╔╝╚██████╗╚██████╔╝███████║
 ╚══════╝   ╚═╝    ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝
 ```
-</p> 
+    
+    
 <p align="center">
   <a href="#Installation">Installation</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
