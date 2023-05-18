@@ -13,7 +13,7 @@
 </p> 
  
 
-# Installation 
+#Installation 
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
 ```
@@ -23,7 +23,7 @@ cd Stucus
 ```console
 g++ stucus.cpp -o stucus
 ```
-# Usage
+#Usage
 
 ```console
 ./stucus
