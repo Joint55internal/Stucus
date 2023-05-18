@@ -18,6 +18,7 @@
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a>
 </p> 
+
 ## Description
 Stucus is a simple chatbot-like program
 
