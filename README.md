@@ -7,13 +7,13 @@
 </p>
 
 <p align="center">
-  <a1 href="#Installation">Installation</a>
+  <a href="#Installation">Installation</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a2 href="#Usage">Usage</a>
+  <a href="#Usage">Usage</a>
 </p> 
  
 
-#Installation 
+# Installation 
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
 ```
@@ -23,7 +23,7 @@ cd Stucus
 ```console
 g++ stucus.cpp -o stucus
 ```
-#Usage
+# Usage
 
 ```console
 ./stucus
