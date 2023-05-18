@@ -15,7 +15,7 @@
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#features">Features</a> •
-  <a href="#customization">Contributing</a> •
+  <a href="#customization">Customization</a> •
   <a href="#license">License</a>
 </p> 
 
