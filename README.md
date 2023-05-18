@@ -15,7 +15,7 @@
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#features">Features</a> •
-  <a href="#contributing">Contributing</a> •
+  <a href="#customization">Contributing</a> •
   <a href="#license">License</a>
 </p> 
 
@@ -61,4 +61,8 @@ AI: Enter the temperature in Fahrenheit: 75
 - Conversion between Fahrenheit and Celsius temperatures is supported.
 - Fun facts can be shared upon request.
 
+# Customization
 
+- Modify the initializeResponses() function to add or modify the pre-written responses.
+- Update the funFacts vector with your own interesting facts.
+- Customize the Stucs' behavior by extending the getResponse() function.
