@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a1 href="#Installation">Usage</a>
+  <a1 href="#Installation">Installation</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a2 href="#Usage">Usage</a>
 </p> 
