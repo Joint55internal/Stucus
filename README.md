@@ -26,6 +26,7 @@
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
 ```
+Navigate to Stucus
 ```console
 cd Stucus
 ```
