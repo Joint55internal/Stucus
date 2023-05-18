@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-  <a href="#Installation">Usage</a>
+  <a1 href="#Installation">Usage</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Usage">Usage</a>
+  <a2 href="#Usage">Usage</a>
+</p> 
  
- 
-</p>
+
 # Installation 
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
