@@ -41,6 +41,7 @@ To use Stucus, execute the following command:
 ./stucus
 ```
 Interact with Stucus by typing your question or message.
+
 Example conversaions:
 ```
 > Hello
