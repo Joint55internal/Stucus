@@ -69,6 +69,6 @@ AI: Enter the temperature in Fahrenheit: 75
 
 # License
 
-This project is licensed under the MIT [LICENSE](/LICENSE).
+This project is licensed under the MIT Licence - See [LICENSE](/LICENSE) file for detail.
 Copyright © 2023 Joint55internal
 
