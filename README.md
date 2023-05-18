@@ -34,7 +34,7 @@ Compile the source code:
 g++ stucus.cpp -o stucus
 ```
 # Usage
-
+To use Stucus, execute the following command:
 ```console
 ./stucus
 ```
