@@ -165,7 +165,7 @@ std::string getResponse(const std::string& input) {
         response = getRandomFunFact();
     } else {
         // If no pre-written response is found and it's not a known request, provide a generic response
-        response = "I'm sorry, I don't have a response for that. You can try searching on Google.";
+        response = "I'm sorry, I don't have a response for that. You can try search on Google.";
     }
 
     return response;
