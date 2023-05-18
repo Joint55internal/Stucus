@@ -54,3 +54,11 @@ AI: Enter the temperature in Fahrenheit: 75
 > 23.89 °C
 > q
 ```
+# Features
+Features
+
+・Stucs can respond to pre-defined queries and provide appropriate answers.
+・It can handle mathematical expressions and calculate the result.
+・Conversion between Fahrenheit and Celsius temperatures is supported.
+・Fun facts can be shared upon request.
+
