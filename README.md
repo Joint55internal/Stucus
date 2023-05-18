@@ -1,2 +1,30 @@
 # Stucus
-Simple chatbot like program
+<p align=center>
+
+  <br>
+  <span> Simple chatbot like program
+  <br>
+</p>
+
+<p align="center">
+  <a href="#Installation">Usage</a>
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Usage">Usage</a>
+ 
+ 
+</p>
+# Installation 
+```console
+git clone https://github.com/Joint55internal/Stucus.git
+```
+```console
+cd Stucus
+```
+```console
+g++ stucus.cpp -o stucus
+```
+# Usage
+
+```console
+./stucus
+```
