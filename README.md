@@ -1,7 +1,5 @@
 # Stucus
-## Description
 
-Stucus is a simple chatbot-like program
   
 ```md
 ███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗
@@ -20,7 +18,8 @@ Stucus is a simple chatbot-like program
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a>
 </p> 
- 
+## Description
+Stucus is a simple chatbot-like program
 
 # Installation 
 ```console
