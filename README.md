@@ -27,7 +27,7 @@ Stucus is a simple chatbot-like program
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
 ```
-2. Navigate to Stucus
+2. Navigate to Stucus:
 ```console
 cd Stucus
 ```
