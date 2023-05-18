@@ -40,3 +40,17 @@ To use Stucus, execute the following command:
 ```console
 ./stucus
 ```
+Interact with Stucus by typing your question or message.
+Example conversaions:
+```
+> Hello
+AI: Hi there! How can I help you?
+> What's the weather today?
+AI: I'm sorry, I don't have access to real-time weather information. You can try searching on Google.
+> Tell me a joke
+AI: Sure, here's one: Why don't scientists trust atoms? Because they make up everything!
+> Convert f to c
+AI: Enter the temperature in Fahrenheit: 75
+> 23.89 °C
+> q
+```
