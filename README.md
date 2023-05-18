@@ -1,39 +1,19 @@
 # Stucus
-<p align=center>
 
-  <br>
-  <span> Simple chatbot like program
-</p> 
-  
-```md
-███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗
-██╔════╝╚══██╔══╝██║   ██║██╔════╝██║   ██║██╔════╝
-███████╗   ██║   ██║   ██║██║     ██║   ██║███████╗
-╚════██║   ██║   ██║   ██║██║     ██║   ██║╚════██║
-███████║   ██║   ╚██████╔╝╚██████╗╚██████╔╝███████║
-╚══════╝   ╚═╝    ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝
-```
-    
-    
 <p align="center">
-  <a href="#Installation">Installation</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Usage">Usage</a>
+  <br>
+  <img src="https://your-image-url.com" alt="Stucus Logo" width="200">
+  <br>
+  <span>Simple chatbot-like program</span>
 </p> 
- 
 
-# Installation 
+<p align="center">
+  <img src="https://your-badge-url.com" alt="Badge">
+</p>
+
+## Installation
+
 ```console
 git clone https://github.com/Joint55internal/Stucus.git
-```
-```console
 cd Stucus
-```
-```console
 g++ stucus.cpp -o stucus
-```
-# Usage
-
-```console
-./stucus
-```
