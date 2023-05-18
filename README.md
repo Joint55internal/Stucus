@@ -66,3 +66,7 @@ AI: Enter the temperature in Fahrenheit: 75
 - Modify the initializeResponses() function to add or modify the pre-written responses.
 - Update the funFacts vector with your own interesting facts.
 - Customize the Stucs' behavior by extending the getResponse() function.
+
+# License
+
+This project is licensed under the MIT License.
