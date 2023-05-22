@@ -259,6 +259,7 @@ void initializeResponses() {
     capitals["ukraine"] = "kyiv";
     capitals["united arab emirates"] = "abu dhabi";
     capitals["united kingdom"] = "london";
+    capitals["united states"] = "washington D.C";
     capitals["uruguay"] = "montevideo";
     capitals["uzbekistan"] = "tashkent";
     capitals["vanuatu"] = "port vila";
