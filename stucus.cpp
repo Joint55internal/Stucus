@@ -9,6 +9,7 @@
 
 std::map<std::string, std::string> responses; // Map to store pre-written responses
 std::vector<std::string> funFacts;
+std::vector<std::string> jokes;
 
 const std::string logo =
 "███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗\n"
