@@ -52,6 +52,20 @@ void initializeResponses() {
     funFacts.push_back("The Hawaiian alphabet only has 12 letters: A, E, I, O, U, H, K, L, M, N, P, and W.");
     funFacts.push_back("The first recorded use of the hashtag symbol (#) was in ancient Rome to represent the weight measurement 'pound.'");
     funFacts.push_back("The world's oldest known musical instrument is a flute made from a vulture's wing bone and is over 40,000 years old.");
+    funFacts.push_back("Did you know that the fingerprints of a koala are so similar to humans that they can sometimes be confused at a crime scene?");
+    funFacts.push_back("Here's a fun fact: The longest recorded flight of a chicken is 13 seconds!");
+    funFacts.push_back("Here's an interesting fact: The world's largest snowflake was recorded in 1887 in Montana and measured 15 inches in diameter!");
+    funFacts.push_back("Did you know that a group of flamingos is called a 'flamboyance'?");
+    funFacts.push_back("The Great Wall of China is so long that it can be seen from space, contrary to the popular myth.");
+    funFacts.push_back("Here's a surprising fact: Cows have best friends and can become stressed when separated from them!");
+    funFacts.push_back("Did you know that the world's smallest mammal is the bumblebee bat, which weighs less than a penny?");
+    funFacts.push_back("Here's an amazing fact: The Eiffel Tower can actually grow in height by up to 6 inches during the summer due to thermal expansion!");
+    funFacts.push_back("Here's a fun fact: The longest recorded flight of a paper airplane is 27.9 seconds!");
+    funFacts.push_back("Did you know that honeybees have to visit around two million flowers to produce just one pound of honey?");
+    funFacts.push_back("Here's an interesting fact: The world's largest known living organism is a giant sequoia tree named 'General Sherman.'");
+    funFacts.push_back("The average person blinks around 20 times per minute, which amounts to approximately 1,200 blinks per hour.");
+    funFacts.push_back("Did you know that a group of pugs is called a 'grumble'?");
+
     // Add fun facts
 }
 
