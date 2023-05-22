@@ -1,4 +1,6 @@
 #include <iostream>
+#include <chrono>
+#include <thread>
 #include <map>
 #include <string>
 #include <algorithm>
@@ -14,12 +16,40 @@ std::vector<std::string> jokes;
 std::unordered_map<std::string, std::string> capitals;
 
 const std::string logo =
+    "\n"
 "███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗\n"
 "██╔════╝╚══██╔══╝██║   ██║██╔════╝██║   ██║██╔════╝\n"
 "███████╗   ██║   ██║   ██║██║     ██║   ██║███████╗\n"
 "╚════██║   ██║   ██║   ██║██║     ██║   ██║╚════██║\n"
 "███████║   ██║   ╚██████╔╝╚██████╗╚██████╔╝███████║\n"
 "╚══════╝   ╚═╝    ╚═════╝  ╚═════╝ ╚═════╝ ╚══════╝\n";
+
+void launchAnimation()
+{
+    std::string animationFrames = "-\\|/";
+    int frameIndex = 0;
+    const int animationDuration = 4000; // Animation duration in milliseconds
+
+    std::cout << "Launching ";
+
+    auto startTime = std::chrono::steady_clock::now();
+    while (true)
+    {
+        auto currentTime = std::chrono::steady_clock::now();
+        auto elapsedTime = std::chrono::duration_cast<std::chrono::milliseconds>(currentTime - startTime).count();
+
+        if (elapsedTime >= animationDuration)
+            break;
+
+        std::cout << "\b" << animationFrames[frameIndex] << std::flush;
+
+        frameIndex = (frameIndex + 1) % animationFrames.length();
+
+        std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Delay between frames
+    }
+
+    std::cout << "\b "; // Clear the animation frame
+}
 
 void initializeResponses() {
     // Load pre-written responses from a file or define them manually
@@ -439,6 +469,7 @@ std::string getResponse(const std::string& input) {
 }
 
 int main() {
+    launchAnimation();
     initializeResponses();
 
     std::string input;
