@@ -30,7 +30,6 @@ void initializeResponses() {
     responses["pi"] = "3.1415926535...";
     responses["who are you"] = "I am your personal Assistant";
     responses["what's the weather today"] = "I'm sorry, I don't have access to real-time weather information.";
-    responses["tell me a joke"] = "Sure, here's one: Why don't scientists trust atoms? Because they make up everything!";
     responses["how old are you"] = "I don't have an age. I'm a virtual assistant.";
     responses["what's your favorite color"] = "I don't have the ability to see colors, but I'm happy to assist you!";
     responses["where are you from"] = "I exist in the digital realm and don't have a physical location.";
@@ -66,7 +65,20 @@ void initializeResponses() {
     funFacts.push_back("The average person blinks around 20 times per minute, which amounts to approximately 1,200 blinks per hour.");
     funFacts.push_back("Did you know that a group of pugs is called a 'grumble'?");
 
-    // Add fun facts
+    // Add more fun facts
+    //Jokes
+    jokes.push_back("Sure, here's one: Why don't scientists trust atoms? Because they make up everything!");
+    jokes.push_back("Sure, here's one: Why don't scientists trust atoms? Because they make up everything!");
+    jokes.push_back("Why don't skeletons fight each other? They don't have the guts!");
+    jokes.push_back("Why did the scarecrow win an award? Because he was outstanding in his field!");
+    jokes.push_back("Why did the bicycle fall over? Because it was two-tired!");
+    jokes.push_back("What do you call a fish wearing a crown? King mackerel!");
+    jokes.push_back("Why did the tomato turn red? Because it saw the salad dressing!");
+    jokes.push_back("What do you call a snowman with a six-pack? An abdominal snowman!");
+    jokes.push_back("Why did the math book look sad? Because it had too many problems!");
+    jokes.push_back("Why don't scientists trust atoms anymore? Because they make up everything!");
+    jokes.push_back("Why don't skeletons fight each other? They don't have the guts!");
+    // Add more Jokes
 }
 
 double celsiusToFahrenheit(double celsius) {
@@ -132,7 +144,15 @@ std::string getRandomFunFact() {
 
     return funFacts[index];
 }
+std::string getRandomjokes() {
+    // Generate a random index to select a joke from the vector
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(0, jokes.size() - 1);
+    int index = dis(gen);
 
+    return jokes[index];
+}
 std::string getResponse(const std::string& input) {
     std::string response;
 
@@ -177,9 +197,14 @@ std::string getResponse(const std::string& input) {
         response = oss.str() + " °F";
     } else if (trimmedInput == "tell me a fun fact") {
         response = getRandomFunFact();
+    } else if (trimmedInput == "tell me a joke") {
+        response = getRandomjokes();    
+    } else if (trimmedInput == "q") {
+        response = "Goodbye!";    
     } else {
         // If no pre-written response is found and it's not a known request, provide a generic response
-        response = "I'm sorry, I don't have a response for that. You can try search on Google.";
+        std::string googleSearchURL = getGoogleSearchURL(trimmedInput); // Generated google search URL
+        response = "I'm sorry, I don't have a response for that. You can try searching on Google at " +  googleSearchURL;
     }
 
     return response;
@@ -190,11 +215,11 @@ int main() {
 
     std::string input;
     std::cout << logo;
-    std::cout << "Welcome! How can I assist you? (Type 'q' to exit)\n";
+    std::cout << "AI (^^): Welcome! How can I assist you? (Type 'q' to exit)\n";
     while (true) {
         std::cout << " > ";
         std::getline(std::cin, input);
-        std::cout << "AI: " << getResponse(input) << std::endl;
+        std::cout << "AI (^^): " << getResponse(input) << std::endl;
 
         if (input == "q") {
             break;
