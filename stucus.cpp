@@ -6,10 +6,12 @@
 #include <sstream>
 #include <vector>
 #include <random>
+#include <unordered_map>
 
 std::map<std::string, std::string> responses; // Map to store pre-written responses
 std::vector<std::string> funFacts;
 std::vector<std::string> jokes;
+std::unordered_map<std::string, std::string> capitals;
 
 const std::string logo =
 "███████╗████████╗██╗   ██╗ ██████╗██╗   ██╗███████╗\n"
@@ -80,6 +82,194 @@ void initializeResponses() {
     jokes.push_back("Why don't scientists trust atoms anymore? Because they make up everything!");
     jokes.push_back("Why don't skeletons fight each other? They don't have the guts!");
     // Add more Jokes
+    // capitals and countries
+    capitals["afghanistan"] = "kabul";
+    capitals["albania"] = "tirana";
+    capitals["algeria"] = "algiers";
+    capitals["andorra"] = "andorra la vella";
+    capitals["angola"] = "luanda";
+    capitals["antigua and barbuda"] = "saint john's";
+    capitals["armenia"] = "yerevan";
+    capitals["australia"] = "canberra";
+    capitals["austria"] = "vienna";
+    capitals["azerbaijan"] = "baku";
+    capitals["bahamas"] = "nassau";
+    capitals["bahrain"] = "manama";
+    capitals["bangladesh"] = "dhaka";
+    capitals["barbados"] = "bridgetown";
+    capitals["belarus"] = "minsk";
+    capitals["belgium"] = "brussels";
+    capitals["belize"] = "belmopan";
+    capitals["benin"] = "porto-novo";
+    capitals["bhutan"] = "thimphu";
+    capitals["bolivia"] = "sucre";
+    capitals["bosnia and herzegovina"] = "sarajevo";
+    capitals["botswana"] = "gaborone";
+    capitals["brazil"] = "brasília";
+    capitals["brunei"] = "bandar seri begawan";
+    capitals["bulgaria"] = "sofia";
+    capitals["burkina faso"] = "ouagadougou";
+    capitals["burundi"] = "gitega";
+    capitals["cambodia"] = "phnom penh";
+    capitals["cameroon"] = "yaoundé";
+    capitals["canada"] = "ottawa";
+    capitals["cape verde"] = "praia";
+    capitals["central african republic"] = "bangui";
+    capitals["chad"] = "ndjamena";
+    capitals["chile"] = "santiago";
+    capitals["china"] = "beijing";
+    capitals["colombia"] = "bogotá";
+    capitals["comoros"] = "moroni";
+    capitals["congo (brazzaville)"] = "brazzaville";
+    capitals["congo (kinshasa)"] = "kinshasa";
+    capitals["costa rica"] = "san josé";
+    capitals["croatia"] = "zagreb";
+    capitals["cuba"] = "havana";
+    capitals["cyprus"] = "nicosia";
+    capitals["czech republic"] = "prague";
+    capitals["denmark"] = "copenhagen";
+    capitals["djibouti"] = "djibouti";
+    capitals["dominica"] = "roseau";
+    capitals["dominican republic"] = "santo domingo";
+    capitals["east timor"] = "dili";
+    capitals["ecuador"] = "quito";
+    capitals["el salvador"] = "san salvador";
+    capitals["equatorial guinea"] = "malabo";
+    capitals["eritrea"] = "asmara";
+    capitals["estonia"] = "tallinn";
+    capitals["eswatini"] = "mbabane";
+    capitals["ethiopia"] = "addis ababa";
+    capitals["fiji"] = "suva";
+    capitals["finland"] = "helsinki";
+    capitals["gabon"] = "libreville";
+    capitals["gambia"] = "banjul";
+    capitals["georgia"] = "tbilisi";
+    capitals["germany"] = "berlin"; 
+    capitals["ghana"] = "accra";
+    capitals["greece"] = "athens";
+    capitals["grenada"] = "saint george's";
+    capitals["guatemala"] = "guatemala city";
+    capitals["guinea"] = "conakry";
+    capitals["guinea-bissau"] = "bissau";
+    capitals["guyana"] = "georgetown";
+    capitals["haiti"] = "port-au-prince"; 
+    capitals["honduras"] = "tegucigalpa";
+    capitals["hungary"] = "budapest";
+    capitals["iceland"] = "reykjavík";
+    capitals["india"] = "new delhi";
+    capitals["iran"] = "tehran";
+    capitals["iraq"] = "baghdad";
+    capitals["ireland"] = "dublin";
+    capitals["israel"] = "jerusalem";
+    capitals["ivory coast"] = "abidjan";
+    capitals["jamaica"] = "kingston";
+    capitals["japan"] = "tokyo";
+    capitals["jordan"] = "amman";
+    capitals["kazakhstan"] = "nur-sultan";
+    capitals["kiribati"] = "tarawa";
+    capitals["kosovo"] = "pristina";
+    capitals["kuwait"] = "kuwait city";
+    capitals["kyrgyzstan"] = "bishkek";
+    capitals["laos"] = "vientiane";
+    capitals["latvia"] = "riga";
+    capitals["lebanon"] = "beirut";
+    capitals["lesotho"] = "maseru";
+    capitals["liberia"] = "monrovia";
+    capitals["libya"] = "tripoli";
+    capitals["liechtenstein"] = "vaduz";
+    capitals["lithuania"] = "vilnius";
+    capitals["luxembourg"] = "luxembourg city";
+    capitals["madagascar"] = "antananarivo";
+    capitals["malawi"] = "lilongwe";
+    capitals["malaysia"] = "kuala lumpur";
+    capitals["maldives"] = "male";
+    capitals["mali"] = "bamako";
+    capitals["malta"] = "valletta";
+    capitals["marshall islands"] = "majuro";
+    capitals["mauritania"] = "nouakchott";
+    capitals["mauritius"] = "port louis";
+    capitals["micronesia"] = "palikir";
+    capitals["moldova"] = "chisinau";
+    capitals["monaco"] = "monaco";
+    capitals["mongolia"] = "ulaanbaatar";
+    capitals["montenegro"] = "podgorica";
+    capitals["morocco"] = "rabat";
+    capitals["mozambique"] = "maputo";
+    capitals["myanmar"] = "naypyidaw";
+    capitals["namibia"] = "windhoek";
+    capitals["nauru"] = "yaren";
+    capitals["nepal"] = "kathmandu";
+    capitals["nicaragua"] = "managua";
+    capitals["niger"] = "niamey";
+    capitals["north korea"] = "pyongyang";
+    capitals["north macedonia"] = "skopje"; 
+    capitals["norway"] = "oslo";
+    capitals["oman"] = "muscat";
+    capitals["pakistan"] = "islamabad";
+    capitals["palau"] = "ngerulmud";
+    capitals["panama"] = "panama city";
+    capitals["papua new guinea"] = "port moresby";
+    capitals["paraguay"] = "asunción";
+    capitals["peru"] = "lima";
+    capitals["philippines"] = "manila";
+    capitals["poland"] = "warsaw";
+    capitals["portugal"] = "lisbon";
+    capitals["qatar"] = "doha";
+    capitals["romania"] = "bucharest";
+    capitals["russia"] = "moscow";
+    capitals["rwanda"] = "kigali";
+    capitals["saint kitts and nevis"] = "basseterre";
+    capitals["saint lucia"] = "castries";
+    capitals["saint vincent and the grenadines"] = "kingstown";
+    capitals["samoa"] = "apia";
+    capitals["san marino"] = "san marino";
+    capitals["sao tome and principe"] = "são tomé";
+    capitals["saudi arabia"] = "riyadh";
+    capitals["senegal"] = "dakar"; 
+    capitals["serbia"] = "belgrade";
+    capitals["seychelles"] = "victoria";
+    capitals["sierra leone"] = "freetown";
+    capitals["singapore"] = "singapore";
+    capitals["slovakia"] = "bratislava";
+    capitals["slovenia"] = "ljubljana";
+    capitals["solomon islands"] = "honiara"; 
+    capitals["somalia"] = "mogadishu";
+    capitals["south africa"] = "pretoria";
+    capitals["south korea"] = "seoul";
+    capitals["south sudan"] = "juba";
+    capitals["spain"] = "madrid";
+    capitals["sri lanka"] = "colombo";
+    capitals["sudan"] = "khartoum";
+    capitals["suriname"] = "paramaribo";
+    capitals["sweden"] = "stockholm";
+    capitals["switzerland"] = "bern";
+    capitals["syria"] = "damascus";
+    capitals["taiwan"] = "taipei";
+    capitals["tajikistan"] = "dushanbe";
+    capitals["tanzania"] = "dodoma";
+    capitals["thailand"] = "bangkok";
+    capitals["togo"] = "lomé";
+    capitals["tonga"] = "nuku'alofa";
+    capitals["trinidad and tobago"] = "port of spain";
+    capitals["tunisia"] = "tunis";
+    capitals["turkey"] = "ankara";
+    capitals["turkmenistan"] = "ashgabat";
+    capitals["tuvalu"] = "funafuti";
+    capitals["uganda"] = "kampala";
+    capitals["ukraine"] = "kyiv";
+    capitals["united arab emirates"] = "abu dhabi";
+    capitals["united kingdom"] = "london";
+    capitals["uruguay"] = "montevideo";
+    capitals["uzbekistan"] = "tashkent";
+    capitals["vanuatu"] = "port vila";
+    capitals["vatican city"] = "vatican city";
+    capitals["venezuela"] = "caracas";
+    capitals["vietnam"] = "hanoi";
+    capitals["yemen"] = "sana'a";
+    capitals["zambia"] = "lusaka";
+    capitals["zimbabwe"] = "harare";
+    
+    // Add more country-capital pairs
 }
 
 double celsiusToFahrenheit(double celsius) {
@@ -153,6 +343,20 @@ std::string getRandomjokes() {
     int index = dis(gen);
 
     return jokes[index];
+   
+}
+std::string getCapital(const std::string& country) {
+    // Convert the input to lowercase for case-insensitive matching
+    std::string lowercaseCountry = country;
+    std::transform(lowercaseCountry.begin(), lowercaseCountry.end(), lowercaseCountry.begin(), ::tolower);
+
+    // Check if the country exists in the capitals map
+    auto it = capitals.find(lowercaseCountry);
+    if (it != capitals.end()) {
+        return it->second;
+    }
+
+    return "Unknown"; // Return "Unknown" if the capital is not found
 }
 std::string getResponse(const std::string& input) {
     std::string response;
@@ -201,7 +405,19 @@ std::string getResponse(const std::string& input) {
     } else if (trimmedInput == "tell me a joke") {
         response = getRandomjokes();    
     } else if (trimmedInput == "q") {
-        response = "Goodbye!";    
+        response = "Goodbye!"; 
+    } else if (trimmedInput == "cofc") {
+        std::string country;
+        std::cout << "Enter the name of the country: ";
+        std::getline(std::cin, country);
+
+        std::string capital = getCapital(country);
+        if (capital != "Unknown") {
+            response = "The capital of " + country + " is " + capital;
+        } else {
+            response = "I'm sorry, the capital of " + country + " is not in my database.";
+        }
+        
     } else {
         // If no pre-written response is found and it's not a known request, provide a generic response
         std::string googleSearchURL = getGoogleSearchURL(trimmedInput); // Generated google search URL
