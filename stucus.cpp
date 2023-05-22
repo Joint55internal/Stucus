@@ -359,6 +359,15 @@ std::string getCapital(const std::string& country) {
 
     return "Unknown"; // Return "Unknown" if the capital is not found
 }
+
+std::string helpMessage = "Available commands examples:\n"
+                          "- ctof (Celcius to Fahrenheit)\n"
+                          "- froc (Fahrenheit to Celcius)\n"
+                          "- tell me a Fun fact\n"
+                          "- Tell me a joke\n"
+                          "- cofc (shows country's capital\n"
+                          "- help";
+
 std::string getResponse(const std::string& input) {
     std::string response;
 
@@ -418,7 +427,8 @@ std::string getResponse(const std::string& input) {
         } else {
             response = "I'm sorry, the capital of " + country + " is not in my database.";
         }
-        
+    } else if (input == "help") {
+        std::cout << helpMessage << std::endl;    
     } else {
         // If no pre-written response is found and it's not a known request, provide a generic response
         std::string googleSearchURL = getGoogleSearchURL(trimmedInput); // Generated google search URL
@@ -434,6 +444,7 @@ int main() {
     std::string input;
     std::cout << logo;
     std::cout << "© 2023 Joint55internal\n";
+    std::cout << "Please type 'help' to view command examples.\n";
     std::cout << "AI (^^): Welcome! How can I assist you? (Type 'q' to exit)\n";
     while (true) {
         std::cout << " > ";
