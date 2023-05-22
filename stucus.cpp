@@ -216,6 +216,7 @@ int main() {
 
     std::string input;
     std::cout << logo;
+    std::cout << "© 2023 Joint55internal\n";
     std::cout << "AI (^^): Welcome! How can I assist you? (Type 'q' to exit)\n";
     while (true) {
         std::cout << " > ";
