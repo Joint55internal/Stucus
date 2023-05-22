@@ -60,7 +60,7 @@ AI: Enter the temperature in Fahrenheit: 75
 - Stucs can respond to pre-defined queries and provide appropriate answers.
 - It can handle mathematical expressions and calculate the result.
 - Conversion between Fahrenheit and Celsius temperatures is supported.
-- Can tell a joke
+- Can tell a joke.
 - Fun facts can be shared upon request.
 
 # Customization
