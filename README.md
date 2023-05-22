@@ -44,16 +44,18 @@ Interact with Stucus by typing your question or message.
 
 Example conversaions:
 ```
+AI (^^): Welcome! How can I assist you? (Type 'q' to exit)
 > Hello
-AI: Hi there! How can I help you?
+AI(^^): Hi there! How can I help you?
 > What's the weather today?
-AI: I'm sorry, I don't have access to real-time weather information. You can try search on Google.
+AI(^^): I'm sorry, I don't have access to real-time weather information. You can try search on Google.
 > Tell me a joke
-AI: Sure, here's one: Why don't scientists trust atoms? Because they make up everything!
+AI(^^): Sure, here's one: Why don't scientists trust atoms? Because they make up everything!
 > Convert f to c
-AI: Enter the temperature in Fahrenheit: 75
+AI(^^): Enter the temperature in Fahrenheit: 75
 > 23.89 °C
 > q
+AI(^^): Goodbye!
 ```
 # Features
 
