@@ -30,7 +30,7 @@ void launchAnimation()
     int frameIndex = 0;
     const int animationDuration = 4000; // Animation duration in milliseconds
 
-    std::cout << "Launching ";
+    std::cout << "[*]Starting STUCUS... ";
 
     auto startTime = std::chrono::steady_clock::now();
     while (true)
