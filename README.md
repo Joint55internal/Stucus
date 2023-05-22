@@ -62,6 +62,7 @@ AI(^^): Goodbye!
 - Stucs can respond to pre-defined queries and provide appropriate answers.
 - It can handle mathematical expressions and calculate the result.
 - Conversion between Fahrenheit and Celsius temperatures is supported.
+- Can tell the country's capital city
 - Can tell a joke.
 - Fun facts can be shared upon request.
 
